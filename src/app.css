@@ -8,6 +8,11 @@
     scrollbar-width: thin;
     scrollbar-color: var(--secondary) var(--primary);
 }
+
+body
+{
+    overflow-y: hidden;
+}
   
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar 
@@ -31,5 +36,18 @@
 
 body
 {
-    background-color: #1A1A1A;
+    background-color: #060606;
+}
+
+
+.text-gradient
+{
+    background: linear-gradient(61deg, #217BFE 0.0%, #078EFB 27.0%, #A190FF 78.0%, #BD99FE 100.0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background-gradient
+{
+    background: linear-gradient(61deg, #217BFE 0.0%, #078EFB 27.0%, #A190FF 78.0%, #BD99FE 100.0%);
 }
